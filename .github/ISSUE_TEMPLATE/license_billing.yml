@@ -1,0 +1,35 @@
+name: License or billing
+description: Activation, purchases, invoices, or cancellations. Never paste a license key.
+title: "[License] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not paste a license key, a payment screenshot that shows a key, or a checkout email with a key in it.** Public issues are visible to everyone.
+
+        For a private license or billing question, it is safer to use the contact on the [Nunc Labora website](https://diligiteiustitiam.world/nunclabora/) instead of a public issue.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this about?
+      options:
+        - Activating a license
+        - A purchase or invoice
+        - Cancelling or changing a subscription
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened
+      description: Describe the problem without including a license key.
+    validations:
+      required: true
+  - type: checkboxes
+    id: no_key
+    attributes:
+      label: License key
+      options:
+        - label: I have not pasted a license key in this issue.
+          required: true

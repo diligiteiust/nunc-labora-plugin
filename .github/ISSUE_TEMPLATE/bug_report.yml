@@ -1,0 +1,39 @@
+name: Bug report
+description: Nunc Labora did something unexpected, or failed to record or report time.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include the IDE version, the Nunc Labora version, your OS, and the steps to reproduce.
+        Do not paste a license key.
+  - type: input
+    id: ide
+    attributes:
+      label: IDE name and version
+      description: Help → About.
+      placeholder: IntelliJ IDEA 2026.1
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Nunc Labora version
+      description: Welcome tab, or Settings → Plugins.
+      placeholder: "2.0.1"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: macOS 15.6, Windows 11, or Ubuntu 24.04
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: What you did, what you expected, and what happened.
+    validations:
+      required: true
