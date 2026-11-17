@@ -22,15 +22,15 @@ Pro adds Git sync, customers and hourly rates, reports by customer with rounding
 
 **Records**
 
-![The Records tab in Nunc Labora, with a table of time entries](assets/nunc-labora-records.png)
+<img src="assets/nunc-labora-records.png" width="50%" alt="The Records tab in Nunc Labora, with a table of time entries">
 
 **Customers**
 
-![The Customers tab in Nunc Labora, with customer names, rates, and linked projects](assets/nunc-labora-customers.png)
+<img src="assets/nunc-labora-customers.png" width="50%" alt="The Customers tab in Nunc Labora, with customer names, rates, and linked projects">
 
 **Reports**
 
-![The Reports tab in Nunc Labora, with totals that can be turned into an invoice](assets/nunc-labora-reports.png)
+<img src="assets/nunc-labora-reports.png" width="50%" alt="The Reports tab in Nunc Labora, with totals that can be turned into an invoice">
 
 ## Install
 
