@@ -6,6 +6,8 @@
 
 Nunc Labora is a plugin for IntelliJ IDEA and other JetBrains IDEs. It records how long you work in each project, automatically, while you code. Idle time is detected. Your records stay as YAML files in a folder you choose. There is no account and no telemetry.
 
+![Nunc Labora in a JetBrains IDE, with the tool window open and recording active](assets/nunc-labora-full-green.png)
+
 This is the **public support repo**. Open issues here. The commercial source is private.
 
 ## Free and Pro
@@ -15,6 +17,20 @@ Free includes automatic per-project tracking, idle detection, local-only YAML da
 Pro adds Git sync, customers and hourly rates, reports by customer with rounding and tax, CSV export, and PDF invoices.
 
 [Pricing](https://diligiteiustitiam.world/nunclabora/premium/): monthly $4.99, yearly $49.90, or lifetime $99. Subscriptions start with a 14-day free trial. A lifetime license includes lifetime updates.
+
+## Screenshots
+
+**Records**
+
+![The Records tab in Nunc Labora, with a table of time entries](assets/nunc-labora-records.png)
+
+**Customers**
+
+![The Customers tab in Nunc Labora, with customer names, rates, and linked projects](assets/nunc-labora-customers.png)
+
+**Reports**
+
+![The Reports tab in Nunc Labora, with totals that can be turned into an invoice](assets/nunc-labora-reports.png)
 
 ## Install
 
@@ -36,8 +52,6 @@ Open an [issue](https://github.com/diligiteiust/nunc-labora-plugin/issues) in th
 Do **not** paste a license key in a public issue. For billing or private license questions, use the contact on the [website](https://diligiteiustitiam.world/nunclabora/).
 
 New issue: https://github.com/diligiteiust/nunc-labora-plugin/issues/new/choose
-
-Screenshots live in [`assets/screenshots/`](assets/screenshots/).
 
 ## Links
 
