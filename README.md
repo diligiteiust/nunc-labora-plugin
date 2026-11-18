@@ -4,6 +4,12 @@
   <img src="assets/logo.png" width="128" height="128" alt="Nunc Labora logo: a stopwatch whose hand is a pickaxe">
 </p>
 
+<p align="center">
+  <a href="https://plugins.jetbrains.com/plugin/36201-nunc-labora"><img src="https://img.shields.io/jetbrains/plugin/d/36201-nunc-labora?label=JetBrains%20Marketplace" alt="Nunc Labora on JetBrains Marketplace"></a>
+</p>
+
+**[Install from JetBrains Marketplace](https://plugins.jetbrains.com/plugin/36201-nunc-labora)**
+
 Nunc Labora is a plugin for IntelliJ IDEA and other JetBrains IDEs. It records how long you work in each project, automatically, while you code. Idle time is detected. Your records stay as YAML files in a folder you choose. There is no account and no telemetry.
 
 ![Nunc Labora in a JetBrains IDE, with the tool window open and recording active](assets/nunc-labora-full-green.png)
@@ -34,7 +40,9 @@ Pro adds Git sync, customers and hourly rates, reports by customer with rounding
 
 ## Install
 
-A JetBrains Marketplace listing is coming. Until then, install from a zip:
+Install from [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/36201-nunc-labora): in the IDE, open **Settings → Plugins → Marketplace** and search for **Nunc Labora**.
+
+To install from a zip instead:
 
 1. In the IDE, open **Settings → Plugins**.
 2. Click the gear icon and choose **Install Plugin from Disk…**
